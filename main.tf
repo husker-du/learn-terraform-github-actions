@@ -21,7 +21,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "eu-west-1"
+  region = "eu-west-1"
 }
 
 data "aws_ami" "amazon_linux" {
